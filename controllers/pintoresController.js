@@ -1,6 +1,6 @@
-let moongose = require(`mongoose`);
+let moongose = require('mongoose');
 //unirlo al modelo
-let Pintores = require(`../models/Pintores`);
+let Pintores = require('../models/Pintores');
 
 let pintoresController = {};
 
@@ -11,10 +11,10 @@ pintoresController.list = (req, res)=>{
         .skip(0)
         .exec((err, pintor)=>{
             if(err){
-                console.log(`Error: `, err)
+                console.log('Error: ', err)
             }
-            res.render( `../views/index`, {
-                Pintores: pintor,
+            res.render( '../views/index', {
+                pintores: pintor,
                 titulo: "Listado de pintores",
                 year: new Date().getDate() 
             })
