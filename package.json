@@ -1,0 +1,24 @@
+{
+  "name": "examen_3parcial",
+  "version": "1.0.0",
+  "description": "Hacer un reporte en Node JS (examen 3 parcial)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeslyFalcon/Examen_3Parcial.git"
+  },
+  "author": "Leesly Falcón Martínez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeslyFalcon/Examen_3Parcial/issues"
+  },
+  "homepage": "https://github.com/LeeslyFalcon/Examen_3Parcial#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.9.17"
+  }
+}
